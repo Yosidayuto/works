@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{10626FCF-30A5-449F-939C-A2BD8721FC5F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TeamProjects</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="apple block.cpp" />
+    <ClCompile Include="big tree.cpp" />
+    <ClCompile Include="billboard.cpp" />
+    <ClCompile Include="block base.cpp" />
+    <ClCompile Include="building block.cpp" />
+    <ClCompile Include="building break block.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="end button.cpp" />
+    <ClCompile Include="child.cpp" />
+    <ClCompile Include="fade.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="garbage block.cpp" />
+    <ClCompile Include="goal block base.cpp" />
+    <ClCompile Include="grapes block.cpp" />
+    <ClCompile Include="hindrance block base.cpp" />
+    <ClCompile Include="hole block.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="inputcontroller.cpp" />
+    <ClCompile Include="inputkeyboard.cpp" />
+    <ClCompile Include="inputmouse.cpp" />
+    <ClCompile Include="item block base.cpp" />
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="luggage block.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="manager.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="model object.cpp" />
+    <ClCompile Include="number.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="object2d.cpp" />
+    <ClCompile Include="object3d.cpp" />
+    <ClCompile Include="object3d_shader.cpp" />
+    <ClCompile Include="oranges block.cpp" />
+    <ClCompile Include="particle.cpp" />
+    <ClCompile Include="pause bg.cpp" />
+    <ClCompile Include="pause button manager.cpp" />
+    <ClCompile Include="pause.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="press button ui.cpp" />
+    <ClCompile Include="red sand block.cpp" />
+    <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="resource manager.cpp" />
+    <ClCompile Include="restart button.cpp" />
+    <ClCompile Include="sand block.cpp" />
+    <ClCompile Include="score.cpp" />
+    <ClCompile Include="sea.cpp" />
+    <ClCompile Include="seeds block.cpp" />
+    <ClCompile Include="small tree.cpp" />
+    <ClCompile Include="sound.cpp" />
+    <ClCompile Include="sprout block.cpp" />
+    <ClCompile Include="stage base.cpp" />
+    <ClCompile Include="stage2.cpp" />
+    <ClCompile Include="stage3.cpp" />
+    <ClCompile Include="stage1.cpp" />
+    <ClCompile Include="talk no1.cpp" />
+    <ClCompile Include="talk no10.cpp" />
+    <ClCompile Include="talk no11.cpp" />
+    <ClCompile Include="talk no12.cpp" />
+    <ClCompile Include="talk no2.cpp" />
+    <ClCompile Include="talk no3.cpp" />
+    <ClCompile Include="talk no4.cpp" />
+    <ClCompile Include="talk no5.cpp" />
+    <ClCompile Include="talk no6.cpp" />
+    <ClCompile Include="talk no7.cpp" />
+    <ClCompile Include="talk no8.cpp" />
+    <ClCompile Include="talk no9.cpp" />
+    <ClCompile Include="talk_stage1.cpp" />
+    <ClCompile Include="start button.cpp" />
+    <ClCompile Include="grass block.cpp" />
+    <ClCompile Include="talk_base.cpp" />
+    <ClCompile Include="talk_stage_base.cpp" />
+    <ClCompile Include="tile block base.cpp" />
+    <ClCompile Include="title logo.cpp" />
+    <ClCompile Include="talk_stage2.cpp" />
+    <ClCompile Include="talk_stage3.cpp" />
+    <ClCompile Include="title.cpp" />
+    <ClCompile Include="ui.cpp" />
+    <ClCompile Include="tutorial.cpp" />
+    <ClCompile Include="watermelon block.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="apple block.h" />
+    <ClInclude Include="billboard.h" />
+    <ClInclude Include="block base.h" />
+    <ClInclude Include="building block.h" />
+    <ClInclude Include="building break block.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="end button.h" />
+    <ClInclude Include="child.h" />
+    <ClInclude Include="fade.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="garbage block.h" />
+    <ClInclude Include="goal block base.h" />
+    <ClInclude Include="grapes block.h" />
+    <ClInclude Include="hindrance block base.h" />
+    <ClInclude Include="hole block.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="inputcontroller.h" />
+    <ClInclude Include="inputkeyboard.h" />
+    <ClInclude Include="inputmouse.h" />
+    <ClInclude Include="item block base.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="luggage block.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="model object.h" />
+    <ClInclude Include="number.h" />
+    <ClInclude Include="object.h" />
+    <ClInclude Include="object2d.h" />
+    <ClInclude Include="object3d.h" />
+    <ClInclude Include="object3d_shader.h" />
+    <ClInclude Include="oranges block.h" />
+    <ClInclude Include="particle.h" />
+    <ClInclude Include="pause bg.h" />
+    <ClInclude Include="pause button manager.h" />
+    <ClInclude Include="pause.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="press button ui.h" />
+    <ClInclude Include="red sand block.h" />
+    <ClInclude Include="renderer.h" />
+    <ClInclude Include="resource manager.h" />
+    <ClInclude Include="restart button.h" />
+    <ClInclude Include="sand block.h" />
+    <ClInclude Include="score.h" />
+    <ClInclude Include="sea.h" />
+    <ClInclude Include="seeds block.h" />
+    <ClInclude Include="small tree.h" />
+    <ClInclude Include="sound.h" />
+    <ClInclude Include="sprout block.h" />
+    <ClInclude Include="stage base.h" />
+    <ClInclude Include="stage1.h" />
+    <ClInclude Include="stage2.h" />
+    <ClInclude Include="stage3.h" />
+    <ClInclude Include="start button.h" />
+    <ClInclude Include="talk no1.h" />
+    <ClInclude Include="talk no10.h" />
+    <ClInclude Include="talk no11.h" />
+    <ClInclude Include="talk no12.h" />
+    <ClInclude Include="talk no2.h" />
+    <ClInclude Include="talk no3.h" />
+    <ClInclude Include="talk no4.h" />
+    <ClInclude Include="talk no5.h" />
+    <ClInclude Include="talk no6.h" />
+    <ClInclude Include="talk no7.h" />
+    <ClInclude Include="talk no8.h" />
+    <ClInclude Include="talk no9.h" />
+    <ClInclude Include="talk_stage1.h" />
+    <ClInclude Include="grass block.h" />
+    <ClInclude Include="talk_base.h" />
+    <ClInclude Include="talk_stage_base.h" />
+    <ClInclude Include="tile block base.h" />
+    <ClInclude Include="title logo.h" />
+    <ClInclude Include="talk_stage2.h" />
+    <ClInclude Include="talk_stage3.h" />
+    <ClInclude Include="title.h" />
+    <ClInclude Include="big tree.h" />
+    <ClInclude Include="ui.h" />
+    <ClInclude Include="tutorial.h" />
+    <ClInclude Include="watermelon block.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

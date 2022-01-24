@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\ModelBase">
+      <UniqueIdentifier>{78510f32-8fd2-4b1a-b3b5-c353a781b102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ModelBase">
+      <UniqueIdentifier>{7493229d-9398-43b2-92aa-3f4d2599cea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameSceue">
+      <UniqueIdentifier>{2cd544e6-72c7-48e0-b44c-dff80b5d7402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel">
+      <UniqueIdentifier>{ce6d1ed7-b2ad-4a92-b789-021ba2f92805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameSceue">
+      <UniqueIdentifier>{08f72c73-0069-4d02-bab5-53fa8774b7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel">
+      <UniqueIdentifier>{787109f7-04a6-457b-88df-04400c054bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Inputs">
+      <UniqueIdentifier>{e43de555-c3b1-4341-ad5b-3776a05a256a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{9663d10d-5582-42dd-a0f6-59c99fc9fe01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sceue">
+      <UniqueIdentifier>{f50bc822-ee85-461a-8768-5c5c74c42128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Player">
+      <UniqueIdentifier>{3e4fff7e-5fb4-4149-ad83-7136173bf716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Player">
+      <UniqueIdentifier>{741fa258-1d98-4a9c-b4e7-e3e177b2583e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Item">
+      <UniqueIdentifier>{e520a29e-3cc2-44a8-8f4e-c4558653b659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Item">
+      <UniqueIdentifier>{39fdafb1-a08b-457c-9671-20476129e600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Sushi">
+      <UniqueIdentifier>{a15d1846-f063-4c97-be98-cdcff481091b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Sushi\Base">
+      <UniqueIdentifier>{b7e71399-d8ac-4c8b-a769-7eaabb5cba68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Sushi">
+      <UniqueIdentifier>{d8608f66-a807-44b0-ac1b-69dca9a6d670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Sushi\Base">
+      <UniqueIdentifier>{ad8db148-546c-414e-94b6-b70fbdef8f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager">
+      <UniqueIdentifier>{c138329c-72ca-4496-b7f5-63066266e793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Inputs">
+      <UniqueIdentifier>{b1361472-faf0-4525-8fa8-f4688941bfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Sceue">
+      <UniqueIdentifier>{771c4593-957e-4eeb-a775-122670731fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Player\Player Parts">
+      <UniqueIdentifier>{c071a8ec-691c-4efa-b958-c0693ef0f070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Player\Player Parts">
+      <UniqueIdentifier>{dbebfb63-ba60-4a5a-b5e6-12180978a52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Player\Player Parts\Base">
+      <UniqueIdentifier>{cf1eb2d9-18e0-4f48-a3ef-c49543dc7f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Player\Player Parts\Base">
+      <UniqueIdentifier>{ec20d133-4799-454a-8f93-61331288aaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{50a1a7ee-1c35-48a9-b501-9075d4ea52dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI">
+      <UniqueIdentifier>{beb23345-95a1-4b7e-9827-40cccd5114bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Stage">
+      <UniqueIdentifier>{da2acafe-9c87-44dd-9065-5c7dd9264b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Stage">
+      <UniqueIdentifier>{d48dda68-af50-4c39-8c62-d013260711b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Map">
+      <UniqueIdentifier>{47b751e3-7c93-4ad1-9e0c-f578e6af9207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Map">
+      <UniqueIdentifier>{8fd4991d-65ee-4304-ba77-8e71b6729091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Result">
+      <UniqueIdentifier>{d4446897-d02d-479d-9897-aba408f55d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Result">
+      <UniqueIdentifier>{9ef27783-4eab-49ff-bf8e-14fffcaaf957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI\ResultUI">
+      <UniqueIdentifier>{05e175a8-1aab-45ef-89de-79fd5eba2268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI\ResultUI">
+      <UniqueIdentifier>{78a15548-95d3-475e-9e6e-d41d4c58e091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameModel\Effect">
+      <UniqueIdentifier>{e8cd4c09-cb4d-4606-a816-808f5f370085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameModel\Effect">
+      <UniqueIdentifier>{481a81a5-f4db-4fa6-bca6-3914aae58ff8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="joystick.cpp">
+      <Filter>ソース ファイル\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2d.cpp">
+      <Filter>ソース ファイル\Sceue</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3d.cpp">
+      <Filter>ソース ファイル\Sceue</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\Sceue</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\GameSceue</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>ソース ファイル\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="resource manager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon3d.cpp">
+      <Filter>ソース ファイル\ModelBase</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\GameSceue</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\ModelBase</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\GameModel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル\ModelBase</Filter>
+    </ClCompile>
+    <ClCompile Include="food base.cpp">
+      <Filter>ソース ファイル\GameModel\Sushi\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ebi.cpp">
+      <Filter>ソース ファイル\GameModel\Sushi</Filter>
+    </ClCompile>
+    <ClCompile Include="player parts.cpp">
+      <Filter>ソース ファイル\GameModel\Player\Player Parts\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ikura.cpp">
+      <Filter>ソース ファイル\GameModel\Sushi</Filter>
+    </ClCompile>
+    <ClCompile Include="tuna.cpp">
+      <Filter>ソース ファイル\GameModel\Sushi</Filter>
+    </ClCompile>
+    <ClCompile Include="egg.cpp">
+      <Filter>ソース ファイル\GameModel\Sushi</Filter>
+    </ClCompile>
+    <ClCompile Include="salmon.cpp">
+      <Filter>ソース ファイル\GameModel\Sushi</Filter>
+    </ClCompile>
+    <ClCompile Include="player control.cpp">
+      <Filter>ソース ファイル\GameModel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ebi parts.cpp">
+      <Filter>ソース ファイル\GameModel\Player\Player Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="locationpoint.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="scoreup.cpp">
+      <Filter>ソース ファイル\GameModel\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>ソース ファイル\GameModel\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="shield.cpp">
+      <Filter>ソース ファイル\GameModel\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="egg parts.cpp">
+      <Filter>ソース ファイル\GameModel\Player\Player Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="ikura parts.cpp">
+      <Filter>ソース ファイル\GameModel\Player\Player Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="salmon parts.cpp">
+      <Filter>ソース ファイル\GameModel\Player\Player Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="tuna parts.cpp">
+      <Filter>ソース ファイル\GameModel\Player\Player Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="floor.cpp">
+      <Filter>ソース ファイル\GameModel\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Fieldmanager.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="map_manager.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEdgeMask.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="mapEdgeOverlay.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEdgeMaskOut.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\GameSceue</Filter>
+    </ClCompile>
+    <ClCompile Include="winner player.cpp">
+      <Filter>ソース ファイル\GameModel\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="result effect.cpp">
+      <Filter>ソース ファイル\GameModel\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="winner.cpp">
+      <Filter>ソース ファイル\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="classifier.cpp">
+      <Filter>ソース ファイル\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="effect sushi.cpp">
+      <Filter>ソース ファイル\GameModel\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="timerBg.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect powerup.cpp">
+      <Filter>ソース ファイル\GameModel\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfield cylinder.cpp">
+      <Filter>ソース ファイル\GameModel\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effect 3d.cpp">
+      <Filter>ソース ファイル\GameModel\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="timecount ui.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="gameend ui.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>ソース ファイル\GameSceue</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="player number.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="respawn count.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldEffect.cpp">
+      <Filter>ソース ファイル\GameModel\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="sushi bg.cpp">
+      <Filter>ソース ファイル\GameModel\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="sushi model.cpp">
+      <Filter>ソース ファイル\GameModel\Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="joystick.h">
+      <Filter>ヘッダー ファイル\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3d.h">
+      <Filter>ヘッダー ファイル\Sceue</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2d.h">
+      <Filter>ヘッダー ファイル\Sceue</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル\Sceue</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\GameSceue</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>ヘッダー ファイル\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>ヘッダー ファイル\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="resource manager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon3d.h">
+      <Filter>ヘッダー ファイル\ModelBase</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\GameSceue</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\ModelBase</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\GameModel\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>ヘッダー ファイル\ModelBase</Filter>
+    </ClInclude>
+    <ClInclude Include="food base.h">
+      <Filter>ヘッダー ファイル\GameModel\Sushi\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ebi.h">
+      <Filter>ヘッダー ファイル\GameModel\Sushi</Filter>
+    </ClInclude>
+    <ClInclude Include="player parts.h">
+      <Filter>ヘッダー ファイル\GameModel\Player\Player Parts\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ikura.h">
+      <Filter>ヘッダー ファイル\GameModel\Sushi</Filter>
+    </ClInclude>
+    <ClInclude Include="tuna.h">
+      <Filter>ヘッダー ファイル\GameModel\Sushi</Filter>
+    </ClInclude>
+    <ClInclude Include="salmon.h">
+      <Filter>ヘッダー ファイル\GameModel\Sushi</Filter>
+    </ClInclude>
+    <ClInclude Include="egg.h">
+      <Filter>ヘッダー ファイル\GameModel\Sushi</Filter>
+    </ClInclude>
+    <ClInclude Include="player control.h">
+      <Filter>ヘッダー ファイル\GameModel\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="egg parts.h">
+      <Filter>ヘッダー ファイル\GameModel\Player\Player Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="ebi parts.h">
+      <Filter>ヘッダー ファイル\GameModel\Player\Player Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="ikura parts.h">
+      <Filter>ヘッダー ファイル\GameModel\Player\Player Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="salmon parts.h">
+      <Filter>ヘッダー ファイル\GameModel\Player\Player Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="tuna parts.h">
+      <Filter>ヘッダー ファイル\GameModel\Player\Player Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="locationpoint.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="shield.h">
+      <Filter>ヘッダー ファイル\GameModel\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>ヘッダー ファイル\GameModel\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="scoreup.h">
+      <Filter>ヘッダー ファイル\GameModel\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="floor.h">
+      <Filter>ヘッダー ファイル\GameModel\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Fieldmanager.h">
+      <Filter>ヘッダー ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="map_manager.h">
+      <Filter>ヘッダー ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEdgeMask.h">
+      <Filter>ヘッダー ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEdgeOverlay.h">
+      <Filter>ヘッダー ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEdgeMaskOut.h">
+      <Filter>ヘッダー ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\GameSceue</Filter>
+    </ClInclude>
+    <ClInclude Include="winner player.h">
+      <Filter>ヘッダー ファイル\GameModel\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="result effect.h">
+      <Filter>ヘッダー ファイル\GameModel\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effect sushi.h">
+      <Filter>ヘッダー ファイル\GameModel\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldEffect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="winner.h">
+      <Filter>ヘッダー ファイル\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="classifier.h">
+      <Filter>ヘッダー ファイル\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="player number.h">
+      <Filter>ヘッダー ファイル\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="timerBg.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="effect powerup.h">
+      <Filter>ヘッダー ファイル\GameModel\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfield cylinder.h">
+      <Filter>ヘッダー ファイル\GameModel\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effect 3d.h">
+      <Filter>ヘッダー ファイル\GameModel\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="timecount ui.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="gameend ui.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>ヘッダー ファイル\GameSceue</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="respawn count.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>    <ClInclude Include="sushi bg.h">
+      <Filter>ヘッダー ファイル\GameModel\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="sushi model.h">
+      <Filter>ヘッダー ファイル\GameModel\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

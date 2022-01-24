@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Base">
+      <UniqueIdentifier>{468c6632-7474-417d-9f52-4ebf5024b154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Base">
+      <UniqueIdentifier>{80a64860-88a6-482b-b0bc-997e9b63d3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Input">
+      <UniqueIdentifier>{e347df62-efbd-413e-998c-85cae2740ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Input">
+      <UniqueIdentifier>{21c4d8e8-85e7-4b64-aee4-18cc817e4564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{8687bfcd-7244-4652-a7e6-d7cb22c404a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{184c17c0-2cc0-4f59-9e8b-97e52dee00e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Model">
+      <UniqueIdentifier>{0e4c9b89-d099-48a0-9151-e80738d4dce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Model">
+      <UniqueIdentifier>{c1fd0b7f-86fd-49ed-9386-68d343c17ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{8fe709d1-9a76-4433-8973-7b7ce84e4130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager\ModeManager">
+      <UniqueIdentifier>{b90edf35-1cf0-4834-9daa-d1f5bf245eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager">
+      <UniqueIdentifier>{716ea5b4-a174-4b3d-aa4b-e09497a39eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager\ModeManager">
+      <UniqueIdentifier>{8f634fdd-2262-4833-aca9-56d08e4921a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject">
+      <UniqueIdentifier>{be084411-e4be-43b0-b719-2dea49977b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject">
+      <UniqueIdentifier>{40cfc19a-9b60-45da-a6c2-f021dacde84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui">
+      <UniqueIdentifier>{b381b628-dfed-40ec-a394-783ef780fb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui">
+      <UniqueIdentifier>{dfcfbd24-0bbf-4e76-80a6-c08649163c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{63353f8e-7051-4ad0-b54b-4e14311f03b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Stage">
+      <UniqueIdentifier>{40f71914-0d47-420c-a860-8aa1632db198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui\Button">
+      <UniqueIdentifier>{2c2c27df-0174-4efc-b2b9-16dda00ddf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui\Button">
+      <UniqueIdentifier>{8a8530c5-ff02-4cd6-a4f3-01d11798db3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui\Button\ButtonManager">
+      <UniqueIdentifier>{8605619d-2654-4b8e-8963-3905a0486195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui\Button\ButtonManager">
+      <UniqueIdentifier>{5663cb4c-2954-4046-bfae-25974525da6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\fade">
+      <UniqueIdentifier>{b3248a21-a13a-4f71-8142-937e3c3a55cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\fade">
+      <UniqueIdentifier>{3e5eea4a-3fca-4cd7-ac40-d08b2f9b4864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block">
+      <UniqueIdentifier>{1437829b-5245-46c5-af11-0e76a999d0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block">
+      <UniqueIdentifier>{2c3292c5-6d5d-4cce-ac3e-715843ec31ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block\TileBlock">
+      <UniqueIdentifier>{0202479b-c74d-433c-8d5f-43bfae003149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block\TileBlock">
+      <UniqueIdentifier>{295a156f-4466-44f0-910c-2c7023ea95de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block\HindranceBlock">
+      <UniqueIdentifier>{10b34967-7e0d-4a10-b37d-2a7784efd36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block\HindranceBlock">
+      <UniqueIdentifier>{4fc0a743-4384-4db0-8147-e949e1b09e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block\ItemBlock">
+      <UniqueIdentifier>{122d88c0-af62-4372-858a-45f93058a85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block\ItemBlock">
+      <UniqueIdentifier>{361be274-7757-4862-8a20-9f7c1fda2c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block\HindranceBlock\Base">
+      <UniqueIdentifier>{2356f4f6-f0a9-4e54-ac56-84cda7df1381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block\ItemBlock\Base">
+      <UniqueIdentifier>{c1d54791-77d6-4530-a514-ff9e2b6a1f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block\ItemBlock\Base">
+      <UniqueIdentifier>{333ae5ba-0e5a-4977-aeb7-3795702c8a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block\HindranceBlock\Base">
+      <UniqueIdentifier>{8039311b-9b2f-4197-8dd1-0a19df82da9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block\GoalBlock">
+      <UniqueIdentifier>{bb40857a-31dc-4aed-b988-059d9deefa40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage\Base">
+      <UniqueIdentifier>{b6c2690c-2fbe-4c71-aeb3-6484204a64a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Stage\Base">
+      <UniqueIdentifier>{caf8d750-d1b3-4beb-845e-7bdd91ccd784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block\GoalBlock">
+      <UniqueIdentifier>{2a5c0905-d820-4c12-8c36-fb6b17583be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block\GoalBlock\Base">
+      <UniqueIdentifier>{182ee1c3-3672-4e20-bb3b-9dae1682017c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block\GoalBlock\Base">
+      <UniqueIdentifier>{25803025-42f7-42b7-84e4-718152159fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\PlayerData">
+      <UniqueIdentifier>{0b484e58-ce39-4775-9d24-82556a62a93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\PlayerData">
+      <UniqueIdentifier>{0fd4bbcd-544e-4c0f-a93a-fd9350b901ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Particle">
+      <UniqueIdentifier>{9051c6b3-301a-4462-a87f-c8e903ff9cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Particle">
+      <UniqueIdentifier>{a964c6b0-c1d7-41c2-902c-88564cb1c82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Block\TileBlock\Base">
+      <UniqueIdentifier>{922d6c85-faec-436c-acf2-5fbfc5b9b603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Block\TileBlock\Base">
+      <UniqueIdentifier>{71696a83-b469-481a-b751-f612d86bc7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui\TitleUI">
+      <UniqueIdentifier>{247188b6-f803-45f5-85af-ab5bbaa13f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui\TitleUI">
+      <UniqueIdentifier>{0322f53b-d891-4372-abc2-bd322c4900f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui\Talk">
+      <UniqueIdentifier>{72566993-efee-4380-83cf-d88233d5eb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui\Talk">
+      <UniqueIdentifier>{3a11c885-cf18-4e6c-8b97-cc351f1fd726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui\Talk\TalkNo">
+      <UniqueIdentifier>{968b6207-c0c7-4bf9-84fa-8ccd6d81338c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui\Talk\TalkNo\Base">
+      <UniqueIdentifier>{ac7ecd4a-7b91-4a26-ae56-f14d3cf92fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui\Talk\TalkNo">
+      <UniqueIdentifier>{4ce144eb-70c5-483e-b1c7-c0040f301877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui\Talk\TalkNo\base">
+      <UniqueIdentifier>{b71e587b-8b16-4abb-9d4b-75ed951cc326}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputcontroller.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputkeyboard.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="object2d.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="object3d.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model object.cpp">
+      <Filter>ソース ファイル\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\Manager\ModeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\Manager\ModeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="inputmouse.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="resource manager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>ソース ファイル\ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="start button.cpp">
+      <Filter>ソース ファイル\ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="restart button.cpp">
+      <Filter>ソース ファイル\ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="end button.cpp">
+      <Filter>ソース ファイル\ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="pause button manager.cpp">
+      <Filter>ソース ファイル\ui\Button\ButtonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\fade</Filter>
+    </ClCompile>
+    <ClCompile Include="grass block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\TileBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="block base.cpp">
+      <Filter>ソース ファイル\GameObject\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="sand block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\TileBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="red sand block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\TileBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="building block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\HindranceBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="building break block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\HindranceBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="garbage block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="item block base.cpp">
+      <Filter>ソース ファイル\GameObject\Block\ItemBlock\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="hindrance block base.cpp">
+      <Filter>ソース ファイル\GameObject\Block\HindranceBlock\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="seeds block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="apple block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="oranges block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="watermelon block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="grapes block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\Manager\ModeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="sprout block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\TileBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="stage base.cpp">
+      <Filter>ソース ファイル\Stage\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\Manager\ModeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="big tree.cpp">
+      <Filter>ソース ファイル\GameObject\Block\HindranceBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="small tree.cpp">
+      <Filter>ソース ファイル\GameObject\Block\HindranceBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="hole block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\GoalBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="luggage block.cpp">
+      <Filter>ソース ファイル\GameObject\Block\GoalBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="goal block base.cpp">
+      <Filter>ソース ファイル\GameObject\Block\GoalBlock\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\GameObject\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="child.cpp">
+      <Filter>ソース ファイル\GameObject\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>ソース ファイル\GameObject\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="talk_stage1.cpp">
+      <Filter>ソース ファイル\ui\Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="talk_stage2.cpp">
+      <Filter>ソース ファイル\ui\Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="talk_stage3.cpp">
+      <Filter>ソース ファイル\ui\Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="object3d_shader.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="sea.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="press button ui.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="title logo.cpp">
+      <Filter>ソース ファイル\ui\TitleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no1.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk_base.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no2.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no3.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk_stage_base.cpp">
+      <Filter>ソース ファイル\ui\Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no4.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no5.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no6.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no7.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no8.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no10.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no9.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no11.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="talk no12.cpp">
+      <Filter>ソース ファイル\ui\Talk\TalkNo</Filter>
+    </ClCompile>
+    <ClCompile Include="tile block base.cpp">
+      <Filter>ソース ファイル\GameObject\Block\TileBlock\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="pause bg.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="billboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputcontroller.h">
+      <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputkeyboard.h">
+      <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="object2d.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="object3d.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model object.h">
+      <Filter>ヘッダー ファイル\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\Manager\ModeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\Manager\ModeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource manager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="inputmouse.h">
+      <Filter>ヘッダー ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>ヘッダー ファイル\Manager\ModeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="start button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="restart button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="end button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="pause button manager.h">
+      <Filter>ヘッダー ファイル\ui\Button\ButtonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\fade</Filter>
+    </ClInclude>
+    <ClInclude Include="grass block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\TileBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="sand block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\TileBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="red sand block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\TileBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="building block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\HindranceBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="building break block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\HindranceBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="garbage block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="seeds block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="block base.h">
+      <Filter>ヘッダー ファイル\GameObject\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="item block base.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\ItemBlock\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="hindrance block base.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\HindranceBlock\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="apple block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="oranges block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="watermelon block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="grapes block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\ItemBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="sprout block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\TileBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="luggage block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\GoalBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="hole block.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\GoalBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="stage base.h">
+      <Filter>ヘッダー ファイル\Stage\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="big tree.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\HindranceBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="small tree.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\HindranceBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="goal block base.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\GoalBlock\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\GameObject\PlayerData</Filter>
+    </ClInclude>
+    <ClInclude Include="child.h">
+      <Filter>ヘッダー ファイル\GameObject\PlayerData</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>ヘッダー ファイル\GameObject\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="tile block base.h">
+      <Filter>ヘッダー ファイル\GameObject\Block\TileBlock\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="talk_stage1.h">
+      <Filter>ヘッダー ファイル\ui\Talk</Filter>
+    </ClInclude>
+    <ClInclude Include="talk_stage2.h">
+      <Filter>ヘッダー ファイル\ui\Talk</Filter>
+    </ClInclude>
+    <ClInclude Include="talk_stage3.h">
+      <Filter>ヘッダー ファイル\ui\Talk</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="object3d_shader.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="sea.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="press button ui.h">
+      <Filter>ヘッダー ファイル\ui\TitleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="title logo.h">
+      <Filter>ヘッダー ファイル\ui\TitleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no1.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk_base.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no2.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk_stage_base.h">
+      <Filter>ヘッダー ファイル\ui\Talk</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no3.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no4.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no5.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no6.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no7.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no8.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no9.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no10.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no11.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="talk no12.h">
+      <Filter>ヘッダー ファイル\ui\Talk\TalkNo</Filter>
+    </ClInclude>
+    <ClInclude Include="pause bg.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

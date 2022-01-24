@@ -1,0 +1,10 @@
+MAX_DATA,9,
+1,Data/MODEL/PLAYER/player_1p.x,プレイヤー1Pモデル
+2,Data/MODEL/PLAYER/player_2p.x,プレイヤー2Pモデル
+3,Data/MODEL/PLAYER/player_3p.x,プレイヤー3Pモデル
+4,Data/MODEL/PLAYER/player_4p.x,プレイヤー4Pモデル
+10,Data/MODEL/ITEM/scoreup.x,アイテムモデル
+11,Data/MODEL/ITEM/shield.x,アイテムモデル
+20,Data/MODEL/SUSHI/maguro.x,
+21,Data/MODEL/SUSHI/samon.x,
+22,Data/MODEL/SUSHI/tamago.x,
