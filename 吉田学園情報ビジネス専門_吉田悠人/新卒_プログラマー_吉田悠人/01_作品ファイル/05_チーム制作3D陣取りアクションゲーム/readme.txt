@@ -9,6 +9,7 @@
 // 制作人数 8人
 // 使用言語 C++
 //***************************************************
+
 //***************************************************
 //ポイントや意識したこと
 //***************************************************
@@ -35,7 +36,7 @@
 ・move_tile	.cpp/,h
 ・move_around_tile	.cpp/,h
 ・move_sideways_tile	.cpp/,h
-・peint_collision	.cpp/,h
+・peint_collision	.cpp/,
 ・warp_tile		.cpp/,h
 ・skill_arrow_line	.cpp/,h
 ・skill_arrow		.cpp/,h
